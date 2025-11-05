@@ -100,10 +100,12 @@ body {
 .section#team { margin-top: 64px; }
 
 .badge { position: absolute; top: 12px; right: 12px; font-size: 12px; padding: 6px 10px; border-radius: 999px; color: #001018; background: linear-gradient(90deg, var(--accent), var(--accent-3)); font-weight: 700; }
-.post h3, .event h3, .person h3 { margin-top: 0; }
+.post h3, .event h3, .person h3 { margin-top: 0; margin-bottom: 8px; }
 .post p, .event p, .person p { margin-bottom: 0; color: var(--muted); }
+.person p { margin-top: 0; }
 .event .meta { display: inline-block; margin-top: 12px; color: var(--accent); font-weight: 600; }
 .person .avatar { width: 56px; height: 56px; border-radius: 12px; display: grid; place-items: center; font-weight: 800; color: #001018; background: linear-gradient(135deg, var(--accent), var(--accent-2)); box-shadow: 0 10px 24px rgba(8,247,254,0.2); margin-bottom: 10px; }
+.person-photo { width: 100%; max-width: 200px; height: 250px; object-fit: contain; object-position: center; border-radius: 12px; margin: 0 auto 16px; display: block; box-shadow: 0 10px 24px rgba(8,247,254,0.2); border: 2px solid rgba(8,247,254,0.3); }
 .card.person { text-align: center; }
 
 .join-form { display: grid; gap: 14px; }
@@ -306,18 +308,22 @@ details[open] .caret { transform: rotate(45deg); }
         </div>
         <div class="cards four">
           <div class="card person">
+            <img src="ASSETS/Zimmel-Javed-Virk.jpg" alt="Zimmel Javed Virk" class="person-photo" />
             <h3>President</h3>
             <p>Zimmel Javed Virk</p>
           </div>
           <div class="card person">
+            <img src="ASSETS/Sheharyar.jpg" alt="Muhammad Sheharyar" class="person-photo" />
             <h3>Vice President</h3>
             <p>Muhammad Sheharyar</p>
           </div>
           <div class="card person">
+            <img src="ASSETS/Mahgull-Asif-Khan.jpg" alt="Mahgull Asif" class="person-photo" />
             <h3>Secretary</h3>
             <p>Mahgull Asif</p>
           </div>
           <div class="card person">
+            <img src="ASSETS/Amir-Mustafa.jpg" alt="Amir Mustafa" class="person-photo" />
             <h3>Event Manager</h3>
             <p>Amir Mustafa</p>
           </div>
